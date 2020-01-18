@@ -15,7 +15,9 @@
 
 ### Props
 `inputLength` Number of separate inputs. Optional, the default value is `4`.
+
 `onChange` Function to handle new value
+
 `layoutDirection` Layout direction, can be `ltr` for languages with left-to-right layout or `rtl` for right-to-left layout. 
 Optional, the default value is `ltr`.
 
