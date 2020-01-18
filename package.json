@@ -1,0 +1,53 @@
+{
+  "name": "react-separate-inputs",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "repository": "git@github.com:vardan-arm/react-separate-inputs.git",
+  "author": "Vardan Hakobyan <vardan_live@live.com>",
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie 11"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 11"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "eslint-plugin-simple-import-sort": "^5.0.0",
+    "husky": "^4.0.10",
+    "lint-staged": "^9.5.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel dist public/index.html",
+    "prettify": "prettier --write ./src/**/*.ts*",
+    "lint": "eslint ./src/**/*.ts* --ignore-pattern node_modules/",
+    "lint-fix": "eslint ./src/**/*.ts* --fix --ignore-pattern node_modules/"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.8.3",
+    "@types/react": "^16.8.6",
+    "@types/react-dom": "^16.9.4",
+    "react": "^16.8.0",
+    "react-app-polyfill": "^1.0.5",
+    "react-dom": "^16.8.0"
+  }
+}
